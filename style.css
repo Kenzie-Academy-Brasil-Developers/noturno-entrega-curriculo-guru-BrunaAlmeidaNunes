@@ -1,3 +1,36 @@
+#top{ 
+margin: 40px 100px 30px 40px;
+}
+#name{
+font-family: 'Lato', 'sans-serif';
+}
+#div1 {
+border-bottom: 2px solid #cf8a05;
+}
+#div2 {
+	border-bottom: 1px solid #dedede;
+	margin: 10px;
+}
+#div3{
+	border-bottom: 1px solid #dedede;
+}
+#div4{
+border-bottom: 1px solid #dedede;
+}
+img{
+	border-radius: 90px;
+	width: 90px;
+	margin:15px;
+}
+ul ,a ,p{ 
+	font-family: 'Lato', sans-serif;
+	list-style: none;
+	text-decoration:none;
+	color: black;
+	font-size: 14px;
+	padding-top: 15px;
+
+}
 .clear {
 	clear: both;
 }
@@ -5,23 +38,37 @@
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin-right: 50px;
+	padding: 2px;
 }
 
 #name {
 	float: left;
+	
 }
 
 #contactDetails {
 	float: right;
 }
 
+
 .sectionTitle {
+	color: #cf8a05;
 	float: left;
 	width: 25%;
+	font-family: 'Rokkitt',Helvetica,sans-serif;
+	padding: 15px;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	
+}
+.subDetails { 
+	font-family: Arial, Helvetica, sans-serif;
+}
+.keySkills{
+  column-count: 3;
+  
 }
