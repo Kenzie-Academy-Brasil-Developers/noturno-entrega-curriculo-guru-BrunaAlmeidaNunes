@@ -1,38 +1,45 @@
-#top{ 
-margin: 40px 100px 30px 40px;
+body {
+	background-color: #f3f3f3;
 }
-#name{
-font-family: 'Lato', 'sans-serif';
-}
-#div1 {
-border-bottom: 2px solid #cf8a05;
-}
-#div2 {
-	border-bottom: 1px solid #dedede;
-	margin: 10px;
-}
-#div3{
-	border-bottom: 1px solid #dedede;
-}
-#div4{
-border-bottom: 1px solid #dedede;
-}
-img{
+
+img {
 	border-radius: 90px;
 	width: 90px;
-	margin:15px;
+	margin: 15px;
 }
-ul ,a ,p{ 
+
+ul, a, p {
 	font-family: 'Lato', sans-serif;
 	list-style: none;
-	text-decoration:none;
+	text-decoration: none;
 	color: black;
 	font-size: 14px;
 	padding-top: 15px;
-
 }
+
 .clear {
 	clear: both;
+}
+
+.sectionTitle {
+	color: #cf8a05;
+	float: left;
+	width: 25%;
+	font-family: 'Rokkitt', Helvetica, sans-serif;
+	padding: 15px;
+}
+
+.sectionContent {
+	float: right;
+	width: 72.5%;
+}
+
+.subDetails {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.keySkills {
+	column-count: 3;
 }
 
 #headshot {
@@ -44,31 +51,33 @@ ul ,a ,p{
 
 #name {
 	float: left;
-	
 }
 
 #contactDetails {
 	float: right;
 }
 
-
-.sectionTitle {
-	color: #cf8a05;
-	float: left;
-	width: 25%;
-	font-family: 'Rokkitt',Helvetica,sans-serif;
-	padding: 15px;
+#top {
+	margin: 40px 100px 30px 40px;
 }
 
-.sectionContent {
-	float: right;
-	width: 72.5%;
-	
+#name {
+	font-family: 'Lato', 'sans-serif';
 }
-.subDetails { 
-	font-family: Arial, Helvetica, sans-serif;
+
+#div1 {
+	border-bottom: 2px solid #cf8a05;
 }
-.keySkills{
-  column-count: 3;
-  
+
+#div2 {
+	border-bottom: 1px solid #dedede;
+	margin: 10px;
+}
+
+#div3 {
+	border-bottom: 1px solid #dedede;
+}
+
+#div4 {
+	border-bottom: 1px solid #dedede;
 }
