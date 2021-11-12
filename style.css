@@ -1,5 +1,6 @@
 body {
 	background-color: #f3f3f3;
+	font-family: 'Lato' , sans-serif;
 }
 
 img {
@@ -7,7 +8,10 @@ img {
 	width: 90px;
 	margin: 15px;
 }
-
+h1, h2{
+	font-family: 'Rokkitt',sans-serif;
+	font-weight: normal;
+}
 ul, a, p {
 	font-family: 'Lato', sans-serif;
 	list-style: none;
@@ -20,22 +24,32 @@ ul, a, p {
 .clear {
 	clear: both;
 }
-
+.mianDetails{
+		border-bottom: 2px solid #cf8a05;
+margin: 5px;
+}
+.divs{ 
+	border-bottom: 1px solid #dedede;
+}
 .sectionTitle {
 	color: #cf8a05;
 	float: left;
 	width: 25%;
 	font-family: 'Rokkitt', Helvetica, sans-serif;
-	padding: 15px;
+	padding: 5px;
+	
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+    border: 1px;
 }
 
 .subDetails {
 	font-family: Arial, Helvetica, sans-serif;
+	margin:  1px;
+	border: 1px;
 }
 
 .keySkills {
@@ -51,6 +65,7 @@ ul, a, p {
 
 #name {
 	float: left;
+	font-weight: bold;
 }
 
 #contactDetails {
@@ -63,21 +78,4 @@ ul, a, p {
 
 #name {
 	font-family: 'Lato', 'sans-serif';
-}
-
-#div1 {
-	border-bottom: 2px solid #cf8a05;
-}
-
-#div2 {
-	border-bottom: 1px solid #dedede;
-	margin: 10px;
-}
-
-#div3 {
-	border-bottom: 1px solid #dedede;
-}
-
-#div4 {
-	border-bottom: 1px solid #dedede;
 }
